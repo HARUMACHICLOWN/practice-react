@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px;
+}
+.product{
+    padding: 20px;
+    background-color: rgb(243, 240, 240);
+    margin-bottom: 10px;
+    max-width: 300px;   
+}
+.title{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    text-decoration: none;
+}
+.title:hover{
+    transform: scale(105%);
+}
+.redir{
+    gap:15px;
+    display: flex;
+}
